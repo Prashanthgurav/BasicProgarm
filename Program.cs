@@ -24,6 +24,10 @@ namespace BasicCorePrograms
                     LeapYear.TheLeapYear();
                     Console.ReadKey();
                     break;
+                    case 3:
+                    PowerOfTwo.CalPow();
+                    Console.ReadKey();
+                    break;
                 default:
                     Console.WriteLine("Please Choose Program With Given Option");
                     break;
