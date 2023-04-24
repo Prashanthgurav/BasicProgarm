@@ -32,6 +32,10 @@ namespace BasicCorePrograms
                     Harmonic.HarmonicSeries();
                     Console.ReadKey();
                     break;
+                    case 5:
+                    EvenorOdd.FindEvenOrOdd();
+                    Console.ReadKey();
+                    break;
                 default:
                     Console.WriteLine("Please Choose Program With Given Option");
                     break;
