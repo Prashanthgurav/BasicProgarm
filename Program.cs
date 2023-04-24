@@ -1,4 +1,4 @@
-﻿using BasicProgram;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,11 +20,8 @@ namespace BasicCorePrograms
                 case 1:
                     FlipCoins.Flip();
                     break;
-                    case 2:
-                    
-                    Console.WriteLine("Result");
-
-                        Add.AddTwoNumber();
+                   case 2:
+                    LeapYear.TheLeapYear();
                     Console.ReadKey();
                     break;
                 default:
