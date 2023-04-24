@@ -1,7 +1,7 @@
-﻿using System;
+﻿using BasicProgram;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +15,22 @@ namespace BasicCorePrograms
             Console.WriteLine("Please Choose One From Below Option: ");
             Console.WriteLine("1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo\n 4.HarmonicSeries\n 5.EvenorOdd");
             int Option = Convert.ToInt32(Console.ReadLine());
+            switch (Option)
+            {
+                case 1:
+                    FlipCoins.Flip();
+                    break;
+                    case 2:
+                    
+                    Console.WriteLine("Result");
+
+                        Add.AddTwoNumber();
+                    Console.ReadKey();
+                    break;
+                default:
+                    Console.WriteLine("Please Choose Program With Given Option");
+                    break;
+            }
         }
     }
 }
