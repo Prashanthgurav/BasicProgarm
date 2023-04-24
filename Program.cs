@@ -28,6 +28,10 @@ namespace BasicCorePrograms
                     PowerOfTwo.CalPow();
                     Console.ReadKey();
                     break;
+                    case 4:
+                    Harmonic.HarmonicSeries();
+                    Console.ReadKey();
+                    break;
                 default:
                     Console.WriteLine("Please Choose Program With Given Option");
                     break;
